@@ -1,0 +1,51 @@
+.section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("/assets/img1.jpg");
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hometext {
+  max-width: 800px;
+  margin-top: -50px;
+  font-size: var(--xl-font);
+  color: var(--white-bg);
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  margin: 10px 0;
+}
+
+.buttons button {
+  padding: 12px 10px;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+}
+
+.buttons button a {
+  color: var(--text-color);
+}
+.buttons button .link {
+  margin-left: 3px;
+}
+
+.buttons button.active {
+  background: none;
+
+  border: 2px solid var(--white-bg);
+}
+
+.buttons button.active a {
+  color: var(--white-bg);
+}

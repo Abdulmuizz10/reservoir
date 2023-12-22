@@ -1,0 +1,101 @@
+.header {
+  position: fixed;
+  top: 0;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  background: var(--white-bg);
+  width: 1024px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-right: 1px solid var(--soft-text);
+  padding: 0 10px 0 0;
+  width: 30%;
+}
+
+.left .desc {
+  border-left: 1px solid var(--soft-text);
+  padding-left: 10px;
+  font-size: 0.8rem;
+  color: var(--soft-text);
+}
+
+.left button {
+  padding: 12px 10px;
+  background: var(--blue);
+  color: var(--white-bg);
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  display: none;
+}
+.right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.top {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.top a {
+  color: teal;
+  display: flex;
+  align-items: center;
+}
+
+.top a .phone {
+  margin-right: 5px;
+}
+
+.top a .envelope {
+  margin-right: 5px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background: var(--soft-text);
+}
+
+.bottom {
+  padding: 20px;
+}
+
+.bottom button {
+  padding: 12px 10px;
+  background: var(--blue);
+  color: var(--white-bg);
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 90px;
+  }
+  .left {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .left .desc {
+    display: none;
+  }
+  .right {
+    display: none;
+  }
+  .left button {
+    display: block;
+  }
+}
