@@ -12,8 +12,8 @@
   --text-color: black;
   --white-bg: #fff;
   /* --blue: rgb(34, 112, 138); */
-  --blue: #06a1a1;
-  --soft-text: #d3d3d3;
+  --blue: #2c2b2b;
+  --soft-text: #e7e7e7;
   --xl-font: 3rem;
   --lg-font: 1.8rem;
 }
@@ -23,17 +23,14 @@ body {
   color: var(--text-color);
 }
 
-.container {
-  max-width: 1024px;
-  margin: 0 auto;
-  background: var(--white-bg);
-  height: 130vh;
-  width: 100%;
-  position: relative;
-}
-
 @media (max-width: 768px) {
   :root {
     --xl-font: 2.5rem;
+  }
+}
+
+@media (max-width: 300px) {
+  :root {
+    --xl-font: 1.9rem;
   }
 }

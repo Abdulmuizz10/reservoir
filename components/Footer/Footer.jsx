@@ -30,12 +30,12 @@ const Footer = () => {
               <FaPhone className={style.phone} />
               CALL US ON
             </h4>
-            <h2>09088330022</h2>
+            <h2>+234 09088330022</h2>
           </div>
         </div>
       </div>
       <div className={style.bottom}>
-        <p>©{date} reservoir | All Rights Reserved</p>
+        <p>©{date} Reservoir Energy Ltd. | All Rights Reserved</p>
       </div>
     </footer>
   );

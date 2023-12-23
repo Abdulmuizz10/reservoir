@@ -50,13 +50,11 @@ const MeetingCard = ({ popUp, setPopUp }) => {
           alert(
             "We appreciate your effort in scheduling this meeting. Looking forward to our conversation."
           );
-
-          setForm({
-            username: "",
-            email: "",
-            phonenumber: "",
-            date1: "",
-          });
+          setUsername("");
+          setEmail("");
+          setPhonenumber("");
+          setDate("");
+          setMessage("");
         },
         (error) => {
           setLoading(false);
@@ -107,10 +105,10 @@ const MeetingCard = ({ popUp, setPopUp }) => {
             </div>
 
             <div className={style.formsection}>
-              <p>Phone number: </p>
+              <p>Phonenumber: </p>
               <input
                 type="text"
-                placeholder="Phone number"
+                placeholder="Phonenumber"
                 name="phonenumber"
                 value={phonenumber}
                 onChange={(e) => setPhonenumber(e.target.value)}
@@ -118,7 +116,7 @@ const MeetingCard = ({ popUp, setPopUp }) => {
             </div>
 
             <div className={style.formsection}>
-              <p>Shedule Meeting Date:</p>
+              <p>Schedule Meeting Date:</p>
               <input
                 type="date"
                 placeholder="Date for meeting"

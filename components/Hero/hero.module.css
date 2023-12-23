@@ -1,7 +1,7 @@
 .section {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url("/assets/img1.jpg");
-  height: 700px;
+  height: 900px;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -12,7 +12,6 @@
 
 .hometext {
   max-width: 800px;
-  margin-top: -50px;
   font-size: var(--xl-font);
   color: var(--white-bg);
   text-align: center;
@@ -31,6 +30,8 @@
   border: none;
   border-radius: 0.4rem;
   font-size: 1rem;
+  cursor: pointer;
+  background: var(--white-bg);
 }
 
 .buttons button a {
@@ -44,8 +45,21 @@
   background: none;
 
   border: 2px solid var(--white-bg);
+  color: var(--white-bg);
 }
 
 .buttons button.active a {
   color: var(--white-bg);
+}
+
+@media (min-width: 768px) {
+  .section {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 300px) {
+  .buttons {
+    flex-direction: column-reverse;
+  }
 }

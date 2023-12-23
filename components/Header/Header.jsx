@@ -20,7 +20,7 @@ const Header = ({ popUp, setPopUp }) => {
       <div className={style.right}>
         <div className={style.top}>
           <a href="#">
-            <FaPhone className={style.phone} /> 09088330022
+            <FaPhone className={style.phone} /> +234 09088330022
           </a>
           <a
             href="mailto:reservoir598@gmail.com"

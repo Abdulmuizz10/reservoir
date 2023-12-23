@@ -7,7 +7,7 @@
 .top {
   display: flex;
   justify-content: space-between;
-  padding: 0 0 50px 0;
+  padding: 10px 0 50px 0;
 }
 
 .top h3 {
@@ -26,9 +26,12 @@
 
 .email h4 {
   font-size: 0.8rem;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
+.email h2 {
+  color: #d4d4d4;
+}
 .call {
   display: flex;
   flex-direction: column;
@@ -36,7 +39,11 @@
 
 .call h4 {
   font-size: 0.8rem;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
+}
+
+.call h2 {
+  color: #d4d4d4;
 }
 
 .bottom {
@@ -61,5 +68,33 @@
 
   .bottom {
     text-align: center;
+  }
+}
+
+@media (min-height: 1300px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media (min-height: 1300px) {
+  .top {
+    padding: 40px 0;
+  }
+  .bottom {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 300px) {
+  .email h2 {
+    font-size: 1.2rem;
+  }
+  .call h2 {
+    font-size: 1.2rem;
   }
 }

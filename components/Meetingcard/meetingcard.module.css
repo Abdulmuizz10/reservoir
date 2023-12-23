@@ -13,6 +13,8 @@
   );
   background-position: center;
   background-size: cover;
+  z-index: 2000;
+  animation: 1s fadeIn;
 }
 
 .wrapper {
@@ -88,5 +90,14 @@
 @media (min-width: 768px) {
   .card {
     width: 500px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

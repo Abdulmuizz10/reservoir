@@ -1,11 +1,14 @@
 .header {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   height: 130px;
   display: flex;
   align-items: center;
   background: var(--white-bg);
-  width: 1024px;
+  width: 100%;
+  z-index: 1000;
 }
 
 .left {
@@ -22,7 +25,7 @@
   border-left: 1px solid var(--soft-text);
   padding-left: 10px;
   font-size: 0.8rem;
-  color: var(--soft-text);
+  color: #838383;
 }
 
 .left button {
@@ -30,7 +33,7 @@
   background: var(--blue);
   color: var(--white-bg);
   border: none;
-  border-radius: 0.2rem;
+  border-radius: 0.3rem;
   cursor: pointer;
   display: none;
 }
@@ -48,7 +51,7 @@
 }
 
 .top a {
-  color: teal;
+  color: var(--blue);
   display: flex;
   align-items: center;
 }
@@ -75,7 +78,7 @@
   background: var(--blue);
   color: var(--white-bg);
   border: none;
-  border-radius: 0.2rem;
+  border-radius: 0.3rem;
   cursor: pointer;
 }
 
@@ -97,5 +100,12 @@
   }
   .left button {
     display: block;
+  }
+}
+
+@media (max-width: 300px) {
+  .left button {
+    padding: 10px;
+    font-size: 0.5rem;
   }
 }

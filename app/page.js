@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Header popUp={popUp} setPopUp={setPopUp} />
-      <Hero />
+      <Hero popUp={popUp} setPopUp={setPopUp} />
       <Footer />
       {popUp && <MeetingCard popUp={popUp} setPopUp={setPopUp} />}
     </>
