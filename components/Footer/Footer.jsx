@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./footer.module.css";
 import {
+  FaClock,
   FaLocationArrow,
   FaLocationDot,
   FaMap,
@@ -52,8 +53,8 @@ const Footer = () => {
 
             <p style={{ display: "flex", alignItems: "center" }}>
               {" "}
-              <FaEnvelope className={style.envelope} />
-              info@reservoirltd.com
+              <FaClock className={style.envelope} />
+              8:00am - 5:00pm WAT, Monday - Friday.
             </p>
           </div>
         </div>
