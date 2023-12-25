@@ -93,6 +93,12 @@
   }
 }
 
+@media (max-width: 378px) {
+  .card {
+    width: 325px;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

@@ -1,8 +1,9 @@
 // import { Inter } from "next/font/google";
-import { Gothic_A1 } from "next/font/google";
+// import { Gothic_A1 } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
-const gothic_A1 = Gothic_A1({
+const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500"],
 });
@@ -15,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={gothic_A1.className}>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   );
 }

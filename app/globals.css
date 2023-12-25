@@ -5,7 +5,7 @@
   scroll-behavior: smooth;
   list-style: none;
   text-decoration: none;
-  font-family: "Arial", "sans-serif";
+  /* font-family: "Arial", "sans-serif"; */
 }
 :root {
   --bg-color: #f7f7f7;
@@ -13,7 +13,7 @@
   --white-bg: #fff;
   /* --blue: rgb(34, 112, 138); */
   --blue: #2c2b2b;
-  --soft-text: #e7e7e7;
+  --soft-text: #cecece;
   --xl-font: 3rem;
   --lg-font: 1.8rem;
 }

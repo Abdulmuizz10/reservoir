@@ -10,8 +10,8 @@ const Header = ({ popUp, setPopUp }) => {
       <div className={style.left}>
         <Image
           src={"/assets/reservoirlogo.png"}
-          width={130}
-          height={40}
+          width={150}
+          height={60}
           alt="logo"
         />
         <div className={style.desc}>Energy Ltd.</div>
@@ -20,7 +20,7 @@ const Header = ({ popUp, setPopUp }) => {
       <div className={style.right}>
         <div className={style.top}>
           <a href="#">
-            <FaPhone className={style.phone} /> +234 09088330022
+            <FaPhone className={style.phone} /> +234 (0)9088330022
           </a>
           <a
             href="mailto:reservoir598@gmail.com"

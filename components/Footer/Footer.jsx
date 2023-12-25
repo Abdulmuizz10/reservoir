@@ -1,6 +1,13 @@
 import React from "react";
 import style from "./footer.module.css";
-import { FaPhone } from "react-icons/fa6";
+import {
+  FaLocationArrow,
+  FaLocationDot,
+  FaMap,
+  FaMapLocation,
+  FaMapLocationDot,
+  FaPhone,
+} from "react-icons/fa6";
 import { FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
@@ -13,7 +20,7 @@ const Footer = () => {
         <div className={style.contact}>
           <div className={style.email}>
             <h4 style={{ display: "flex", alignItems: "center", gap: "3px" }}>
-              <FaEnvelope className={style.envelope} /> EMAIL US
+              Email Us
             </h4>
             <a
               href="mailto:reservoir598@gmail.com"
@@ -21,16 +28,33 @@ const Footer = () => {
               rel="noreferrer noopener"
               style={{ color: "white" }}
             >
-              <h2>reservoir598@gmail.com</h2>
+              <p>
+                {" "}
+                <FaEnvelope className={style.envelope} />
+                reservoir598@gmail.com
+              </p>
             </a>
           </div>
           <div className={style.call}>
             <h4 style={{ display: "flex", alignItems: "center", gap: "3px" }}>
               {" "}
-              <FaPhone className={style.phone} />
-              CALL US ON
+              Contact Us
             </h4>
-            <h2>+234 09088330022</h2>
+            <p>
+              {" "}
+              <FaLocationDot /> 4th Floor, Building 2, Rivers Houses, <br />
+              Central Business District, Abuja.
+            </p>
+            <p style={{ display: "flex", alignItems: "center" }}>
+              {" "}
+              <FaPhone className={style.phone} /> +234 (0)9088330022
+            </p>
+
+            <p style={{ display: "flex", alignItems: "center" }}>
+              {" "}
+              <FaEnvelope className={style.envelope} />
+              reservoir598@gmail.com
+            </p>
           </div>
         </div>
       </div>
