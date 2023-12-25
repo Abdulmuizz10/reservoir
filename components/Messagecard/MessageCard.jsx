@@ -34,7 +34,7 @@ const MessageCard = ({ msgPopup, setMsgPopup }) => {
     emailjs
       .send(
         "service_bp6nezk",
-        "template_vaacxid",
+        "template_dqf1qki",
         {
           from_name: user.username,
           to_name: "Abdul Hakeem",
@@ -42,7 +42,7 @@ const MessageCard = ({ msgPopup, setMsgPopup }) => {
           to_email: "info@reservoirltd.com",
           message: user.message,
         },
-        "uTYqa9Z2TDlJ-RjdT"
+        "Kn3Kb-BxWhWaFE1mT"
       )
       .then(
         () => {
@@ -101,7 +101,6 @@ const MessageCard = ({ msgPopup, setMsgPopup }) => {
               <input
                 type="email"
                 name="email"
-                placeholder="info@reservoirltd.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -109,7 +108,7 @@ const MessageCard = ({ msgPopup, setMsgPopup }) => {
             </div>
 
             <div className={style.formsection}>
-              <p>Phonenumber: </p>
+              <p>Phone Number: </p>
               <input
                 type="text"
                 name="phonenumber"

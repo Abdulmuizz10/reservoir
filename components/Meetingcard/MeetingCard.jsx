@@ -35,7 +35,7 @@ const MeetingCard = ({ popUp, setPopUp }) => {
     emailjs
       .send(
         "service_bp6nezk",
-        "template_vaacxid",
+        "template_dqf1qki",
         {
           from_name: user.username,
           to_name: "Abdul Hakeem",
@@ -43,7 +43,7 @@ const MeetingCard = ({ popUp, setPopUp }) => {
           to_email: "info@reservoirltd.com",
           message: user.message,
         },
-        "uTYqa9Z2TDlJ-RjdT"
+        "Kn3Kb-BxWhWaFE1mT"
       )
       .then(
         () => {
@@ -102,13 +102,12 @@ const MeetingCard = ({ popUp, setPopUp }) => {
                 name="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="info@reservoirltd.com"
                 required
               />
             </div>
 
             <div className={style.formsection}>
-              <p>Phonenumber: </p>
+              <p>Phone Number: </p>
               <input
                 type="text"
                 name="phonenumber"
