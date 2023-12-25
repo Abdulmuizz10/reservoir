@@ -101,6 +101,7 @@ const MessageCard = ({ msgPopup, setMsgPopup }) => {
               <input
                 type="email"
                 name="email"
+                placeholder="info@reservoirltd.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required

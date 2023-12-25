@@ -102,6 +102,7 @@ const MeetingCard = ({ popUp, setPopUp }) => {
                 name="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                placeholder="info@reservoirltd.com"
                 required
               />
             </div>
