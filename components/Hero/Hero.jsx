@@ -9,7 +9,7 @@ const Hero = ({ popUp, setPopUp }) => {
   return (
     <section className={style.section}>
       <div className={style.hometext}>
-        <h1>Powering Tommorow's Progress.</h1>
+        <h1>Powering Tomorrow's Progress.</h1>
         <div className={style.buttons}>
           <button>
             <Link href="/PROFILE.pdf" target="_blank" download={false}>

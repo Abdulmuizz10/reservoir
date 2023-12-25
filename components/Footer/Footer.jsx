@@ -31,7 +31,7 @@ const Footer = () => {
               <p>
                 {" "}
                 <FaEnvelope className={style.envelope} />
-                reservoir598@gmail.com
+                info@reservoirltd.com
               </p>
             </a>
           </div>
@@ -53,7 +53,7 @@ const Footer = () => {
             <p style={{ display: "flex", alignItems: "center" }}>
               {" "}
               <FaEnvelope className={style.envelope} />
-              reservoir598@gmail.com
+              info@reservoirltd.com
             </p>
           </div>
         </div>
