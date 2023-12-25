@@ -34,16 +34,16 @@ const MeetingCard = ({ popUp, setPopUp }) => {
 
     emailjs
       .send(
-        "service_l8nrkjr",
-        "template_tob7n7i",
+        "service_bp6nezk",
+        "template_vaacxid",
         {
           from_name: user.username,
           to_name: "Abdul Hakeem",
           from_email: user.email,
-          to_email: "reservoir598@gmail.com",
+          to_email: "info@reservoirltd.com",
           message: user.message,
         },
-        "hD8AdP2uG0lxvzj0M"
+        "uTYqa9Z2TDlJ-RjdT"
       )
       .then(
         () => {

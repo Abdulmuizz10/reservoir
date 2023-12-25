@@ -27,7 +27,7 @@ const Header = ({ popUp, setPopUp }) => {
             target={"_blank"}
             rel="noreferrer noopener"
           >
-            <FaEnvelope className={style.envelope} /> info@reservoirltd.comm
+            <FaEnvelope className={style.envelope} /> info@reservoirltd.com
           </a>
         </div>
         <div className={style.line}></div>

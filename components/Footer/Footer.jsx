@@ -42,7 +42,7 @@ const Footer = () => {
             </h4>
             <p>
               {" "}
-              <FaLocationDot /> 4th Floor, Building 2, Rivers Houses, <br />
+              <FaLocationDot /> 4th Floor, Building 2, Rivers House, <br />
               Central Business District, Abuja.
             </p>
             <p style={{ display: "flex", alignItems: "center" }}>
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={style.bottom}>
-        <p>©{date} Reservoir Energy Ltd. | All Rights Reserved</p>
+        <p>© {date} Reservoir Energy Ltd. | All Rights Reserved</p>
       </div>
     </footer>
   );

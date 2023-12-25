@@ -11,13 +11,14 @@
 }
 
 .hometext {
-  max-width: 800px;
+  max-width: 900px;
   color: var(--white-bg);
   text-align: center;
 }
 
 .hometext h1 {
   font-size: var(--xl-font);
+  font-family: "Times New Roman", Times, serif;
 }
 
 .buttons {
