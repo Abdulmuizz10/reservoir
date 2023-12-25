@@ -12,9 +12,12 @@
 
 .hometext {
   max-width: 800px;
-  font-size: var(--xl-font);
   color: var(--white-bg);
   text-align: center;
+}
+
+.hometext h1 {
+  font-size: var(--xl-font);
 }
 
 .buttons {
@@ -32,6 +35,7 @@
   font-size: 1rem;
   cursor: pointer;
   background: var(--white-bg);
+  font-weight: 500;
 }
 
 .buttons button a {

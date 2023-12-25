@@ -12,8 +12,9 @@ const Hero = ({ popUp, setPopUp }) => {
         <h1>Powering Tommorow's Progress.</h1>
         <div className={style.buttons}>
           <button>
-            <Link href="/assets/PROFILE.PDF" target="__blank" download={false}>
-              Our services <FaExternalLinkAlt className={style.link} />
+            <Link href="/PROFILE.pdf" target="_blank" download={false}>
+              OUR SERVICES
+              <FaExternalLinkAlt className={style.link} />
             </Link>
           </button>
           <div className={style.line}></div>

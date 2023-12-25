@@ -12,9 +12,10 @@
   --text-color: black;
   --white-bg: #fff;
   /* --blue: rgb(34, 112, 138); */
-  --blue: #2c2b2b;
+  /* --blue: #2c2b2b; */
+  --blue: #2e2e2e;
   --soft-text: #cecece;
-  --xl-font: 3rem;
+  --xl-font: 4.4rem;
   --lg-font: 1.8rem;
 }
 body {
@@ -33,4 +34,21 @@ body {
   :root {
     --xl-font: 1.9rem;
   }
+}
+
+.fixedbutton {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  background: var(--white-bg);
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.msgbutton {
+  font-size: 30px;
 }
