@@ -25,7 +25,6 @@ const MessageCard = ({ msgPopup, setMsgPopup }) => {
   const [loading, setLoading] = useState(false);
 
   const user = { message };
-  console.log(user);
 
   const handleSubmit = (e) => {
     e.preventDefault();
